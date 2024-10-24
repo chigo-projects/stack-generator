@@ -1,0 +1,21 @@
+{
+  "name": "stack-generator",
+  "version": "1.0.0",
+  "description": "Welcome to the tech stack generator.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-stack": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chigozirim Eke",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.0.0"
+  }
+}
